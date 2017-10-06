@@ -1,0 +1,50 @@
+Install 
+
+1.Open your terminal.
+
+2.Clone this repo: 
+
+	https://github.com/joomza/infamoustest.git
+
+3. Once finished, change directory to infamoustest
+
+	cd infamoustest
+
+4.Install all laravel dependencies:		
+	
+	composer install
+
+5. Copy .env file:
+	
+	cp .env.example .env
+
+6 .Modify DB_* value in .env with your database config.		
+
+7.Generate application key:
+  
+  php artisan key:generate
+
+8.Run migration table:  
+
+	php artisan migrate
+
+9.Serve the app:	
+
+	php artisan serve
+
+10. Open http://localhost:8000/ in your web browser.	
+
+11. Open http://localhost:8000/manage-vue to mange info.	
+
+
+
+Development
+
+1. Open your terminal and change directory to laravel-vue-crud.
+
+2. Make sure you have nodejs installed and run this command:
+
+	npm install
+
+
+
